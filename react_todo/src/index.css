@@ -1,0 +1,103 @@
+html,body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+/* Utility classes */
+.u-fullHeight {
+  height: 100%;
+}
+
+/* ToDo Module */
+.ToDo {
+  text-align: center;
+  border: 1px solid white;
+  height: 100%;
+  background: #f6f6f6;
+  padding-bottom: 60px;
+  overflow: auto;
+}
+
+.ToDo-header {
+  color: black;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.ToDo-content {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.ToDo-control {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ToDo-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* ToDoItem Module */
+.ToDoItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.ToDoItem-text {
+  width: 90%;
+  background-color: white;
+  border: 1px solid lightgrey;
+  box-shadow: 1px 1px 1px lightgrey;
+  padding: 12px;
+  margin-right: 10px;
+}
+
+/* TextField Module */
+.TextField {
+  width: 100%;
+  padding: 10px;
+  font-size: 1em;
+  margin: 10px auto;
+  box-shadow: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+/* Button Module */
+.Button {
+  color: #ffffff;
+  font-size: 16px;
+  padding: 5px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+}
+
+.Button--add {
+  background: #73ff73;
+  border-radius: 3px;
+}
+
+.Button--delete {
+  width: 35px;
+  height: 35px;
+  background: #ff7373;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.Button:hover {
+  background: #416632;
+}
+
+.Button--delete:hover {
+  background: #ff0207;
+}
